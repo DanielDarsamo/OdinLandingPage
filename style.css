@@ -1,0 +1,47 @@
+
+.section1{
+    font-family:'Roboto';
+    background-color: #1F2937;
+    height:80vh;
+    min-width:100vh;
+
+}
+.herosection{
+    display: flex;
+    
+}
+.naviheader{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 15px;
+    
+}
+.headerLogo{
+    font-weight: 900;
+    font-size:24px;
+    color:#F9FAF8;
+   
+   
+
+}
+.link{
+    margin-left: auto;
+    
+
+}
+
+li{
+    list-style: none;
+}
+a{
+    font-size:18px;
+
+    color: #e5e7eb;
+    text-decoration: none;
+}
+.content2{
+    margin : 30px;
+    display: flex;
+
+}
