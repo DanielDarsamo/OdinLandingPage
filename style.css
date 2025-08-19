@@ -11,24 +11,26 @@ font-size:16px;
 }
 .section1{
     background-color:var(--dark);
+    padding:100px 100px;
 }
 .naviheader{
     display:flex;
+    justify-content: space-between;
     align-items: center;
-    justify-content:space-between;
     padding-left: 64px ;
     padding-right:64px;
     padding-top: 20px;
     padding-bottom: 20px;
-    margin-left:24px;
-    gap:24px;
+    
+    
 }
 .link{
     display:flex;
-    justify-content:flex-end;
     align-items: center;
-    margin-left:24px;
-
+    margin-left:64px;
+    margin-right:64px;
+  
+  
 }
 li{
     list-style: none;
@@ -84,8 +86,111 @@ a{
     display: flex;
     flex-direction: column;   /* stack content vertically */
     justify-content: center;  /* center vertically */
-    align-items: center;      /* center horizontally */
+    align-items:center;      /* center horizontally */
     background-color: gray;
     width: 500px;              /* full width */
     height:300px;            /* full screen height */
+    margin-right:74px;
+}
+.section2{
+    text-align: center;
+    padding: 60px 60px;
+}
+.tit2{
+    color:var(--dark);
+    font-size:36px;
+    font-weight:900px;
+    margin-bottom: 40px;
+
+}
+.butcont{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:40px;
+
+}
+.butsec2{
+    
+    background-color: transparent;
+    width: 150px;         /* fixed width */
+    height: 150px;        /* fixed height */
+    border-radius: 10px;
+    border: solid 3px var(--blue);
+}
+.info{
+    max-width: 150px;
+    text-align: center;
+    font-size: 14px;
+}
+.section3{
+    background-color: var(--light-gray);
+    padding: 80px 0px;
+
+}
+.quote{
+    max-width:300px;
+    margin:auto;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 350px;
+    color:var(--dark);
+}
+.titlequote{
+    display: block;
+    text-align:right;
+    font-size:38px;
+    font-weight:900;
+}
+.section4{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    padding:32px;
+
+}
+.content4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   /* vertically align text + button */
+    background-color: var(--blue);
+    border-radius: 10px;
+    padding: 32px;
+}
+
+.cta-text {
+    display: flex;
+    flex-direction: column;  /* stack heading + subheading */
+    text-align: left;
+}
+
+.call {
+    font-weight: bold;
+    font-size: 22px;
+    color: var(--off-white);
+    margin: 0; /* remove default p spacing */
+}
+
+.subcall {
+    font-size: 16px;
+    color: var(--light-gray);
+    margin: 0; /* remove default p spacing */
+}
+
+.signup2 {
+    margin-left:32px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 6px;
+    color: white;
+    padding: 8px 20px; 
+    cursor: pointer;
+}
+
+.footer{
+    background-color: var(--dark);
+    text-align: center;
+    padding: 20px;
+    font: 14px;
+    color: var(--light-gray);
 }
