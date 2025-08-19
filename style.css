@@ -1,47 +1,91 @@
+*{
+--dark: #1F2937;
+--light-gray: #E5E7EB;
+--off-white: #F9FAF8;
+--blue: #3882F6;
 
-.section1{
-    font-family:'Roboto';
-    background-color: #1F2937;
-    height:80vh;
-    min-width:100vh;
+box-sizing: border-box;
+font-family: 'Roboto', sans-serif;
 
+font-size:16px;
 }
-.herosection{
-    display: flex;
-    
+.section1{
+    background-color:var(--dark);
 }
 .naviheader{
-    display: flex;
-    align-items: flex-start;
+    display:flex;
+    align-items: center;
     justify-content: space-between;
-    gap: 15px;
-    
-}
-.headerLogo{
-    font-weight: 900;
-    font-size:24px;
-    color:#F9FAF8;
-   
-   
-
+    padding-left: 64px ;
+    padding-right:64px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left:24px;
+    gap:24px;
 }
 .link{
-    margin-left: auto;
-    
+    display:flex;
+    justify-content: ;
+    align-items: center;
+    margin-left:24px;
 
 }
-
 li{
     list-style: none;
 }
-a{
-    font-size:18px;
+.headerLogo{
+    font-weight:900;
+    font-size: 24px;
+    color:var(--off-white);
 
-    color: #e5e7eb;
-    text-decoration: none;
 }
-.content2{
-    margin : 30px;
+a{
+    text-decoration: none;
+    color:var(--light-gray);
+}
+.herosection{
     display: flex;
+    justify-content: space-between; 
+    align-items: center;       /* vertically center text & image */
+    padding: 60px 64px;        /* give breathing room */
+    gap: 40px;
+    }
+.paragraph{
+    font-size:18px;
+    color:var(--light-gray);
+    max-width: 500px;
 
+}
+
+.heroheading{
+    font-size: 48px;
+    font-weight: bold;
+    color: var(--off-white);
+}
+.signup1{
+    background-color: var(--blue);
+    color: var(--off-white);
+    padding: 10px 28px;     /* taller & wider */
+    border-radius: 6px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+
+}
+.herotext {
+    display: flex;
+    flex-direction: column;   /* stack elements */
+    align-items: flex-start;  /* align left */
+    gap: 16px;                /* smaller spacing between text & button */
+    margin-right: 40px;
+}
+
+.heroimage {
+    display: flex;
+    flex-direction: column;   /* stack content vertically */
+    justify-content: center;  /* center vertically */
+    align-items: center;      /* center horizontally */
+    background-color: gray;
+    width: 500px;              /* full width */
+    height:300px;            /* full screen height */
 }
