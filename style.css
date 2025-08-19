@@ -15,7 +15,7 @@ font-size:16px;
 .naviheader{
     display:flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content:space-between;
     padding-left: 64px ;
     padding-right:64px;
     padding-top: 20px;
@@ -25,7 +25,7 @@ font-size:16px;
 }
 .link{
     display:flex;
-    justify-content: ;
+    justify-content:flex-end;
     align-items: center;
     margin-left:24px;
 
@@ -39,7 +39,7 @@ li{
     color:var(--off-white);
 
 }
-a{
+a{  
     text-decoration: none;
     color:var(--light-gray);
 }
